@@ -1,0 +1,148 @@
+******This is git log before reverting:******
+--------------------------------------------------------
+
+commit b5d0f4bea0b79cc1e3c4fc7fffff7f3d992c1434 (HEAD -> master, origin/master, origin/himabranch)
+Author: Ibrahim-Hesham <ibrahim.hesham.cs@gmail.com>
+Date:   Sun Jan 3 18:05:34 2021 +0200
+
+    git push only
+
+commit cbd7b6c6696926670e42e86f575c98b86870289a
+Merge: 5a27fc7 26864bb
+Author: Ibrahim-Hesham <ibrahim.hesham.cs@gmail.com>
+Date:   Sun Jan 3 17:50:20 2021 +0200
+
+    merged newbranch with himabranch and resolved conflict
+
+commit 26864bbfc86bcfefbdfc39b316bc8439b4b28c1c (origin/newbranch, newbranch)
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 17:46:24 2021 +0200
+
+    committing in newbranch by yehia
+
+commit 5a27fc740392a8f202a392b47ddb867f6e6ae9d4
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 17:34:21 2021 +0200
+:...skipping...
+commit b5d0f4bea0b79cc1e3c4fc7fffff7f3d992c1434 (HEAD -> master, origin/master, origin/himabranch)
+Author: Ibrahim-Hesham <ibrahim.hesham.cs@gmail.com>
+Date:   Sun Jan 3 18:05:34 2021 +0200
+
+    git push only
+
+commit cbd7b6c6696926670e42e86f575c98b86870289a
+Merge: 5a27fc7 26864bb
+Author: Ibrahim-Hesham <ibrahim.hesham.cs@gmail.com>
+Date:   Sun Jan 3 17:50:20 2021 +0200
+
+    merged newbranch with himabranch and resolved conflict
+
+commit 26864bbfc86bcfefbdfc39b316bc8439b4b28c1c (origin/newbranch, newbranch)
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 17:46:24 2021 +0200
+
+    committing in newbranch by yehia
+
+commit 5a27fc740392a8f202a392b47ddb867f6e6ae9d4
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 17:34:21 2021 +0200
+
+    new additions
+
+commit cfa974ebe9d25133585ebb5ab4433b6b005cb6fb
+Author: Ibrahim-Hesham <ibrahim.hesham.cs@gmail.com>
+Date:   Sun Jan 3 17:18:49 2021 +0200
+
+    first text change at yahia
+
+commit 409831557be8ebf3f82c4a61113e0e8a89cf2b5c
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 16:54:23 2021 +0200
+
+    readme file
+
+commit f019afaef9ad4124fb9a2a4a93c838c8db9ccd23
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 16:49:34 2021 +0200
+
+    Added new line
+
+commit 9e31d84b89930eaf236ab1846a0bb9b6c48d8c00
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 16:46:18 2021 +0200
+
+    First file add
+~
+
+
+
+-----------------------------------------------------
+******this is the history after the revert:*******
+---------------------------------------------------
+
+commit b398089618c802556d3ac81493dbc7c984ed192c (HEAD -> master, origin/master)
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 18:45:01 2021 +0200
+
+    Revert "readme file"
+
+    This reverts commit 409831557be8ebf3f82c4a61113e0e8a89cf2b5c.
+
+commit c7f540a43802af8b72648d94088d006a9f969bf7
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 18:31:45 2021 +0200
+
+    Revert "git push only"
+
+    This reverts commit b5d0f4bea0b79cc1e3c4fc7fffff7f3d992c1434.
+
+commit b5d0f4bea0b79cc1e3c4fc7fffff7f3d992c1434 (origin/himabranch)
+Author: Ibrahim-Hesham <ibrahim.hesham.cs@gmail.com>
+Date:   Sun Jan 3 18:05:34 2021 +0200
+
+    git push only
+
+commit cbd7b6c6696926670e42e86f575c98b86870289a
+Merge: 5a27fc7 26864bb
+Author: Ibrahim-Hesham <ibrahim.hesham.cs@gmail.com>
+Date:   Sun Jan 3 17:50:20 2021 +0200
+
+    merged newbranch with himabranch and resolved conflict
+
+commit 26864bbfc86bcfefbdfc39b316bc8439b4b28c1c (origin/newbranch, newbranch)
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 17:46:24 2021 +0200
+
+    committing in newbranch by yehia
+
+commit 5a27fc740392a8f202a392b47ddb867f6e6ae9d4
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 17:34:21 2021 +0200
+
+    new additions
+
+commit cfa974ebe9d25133585ebb5ab4433b6b005cb6fb
+Author: Ibrahim-Hesham <ibrahim.hesham.cs@gmail.com>
+Date:   Sun Jan 3 17:18:49 2021 +0200
+
+    first text change at yahia
+
+commit 409831557be8ebf3f82c4a61113e0e8a89cf2b5c
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 16:54:23 2021 +0200
+
+    readme file
+
+commit f019afaef9ad4124fb9a2a4a93c838c8db9ccd23
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 16:49:34 2021 +0200
+
+    Added new line
+
+commit 9e31d84b89930eaf236ab1846a0bb9b6c48d8c00
+Author: Yehia Khalil <yehiakhalilykk@gamil.com>
+Date:   Sun Jan 3 16:46:18 2021 +0200
+
+    First file add
+
+---------------------------------------------------------------------------------------------------
