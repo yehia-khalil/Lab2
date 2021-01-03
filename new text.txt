@@ -1,4 +1,16 @@
 new line
+<<<<<<< HEAD
 hima : new line 2
 
 yehia : new line 3
+=======
+
+
+
+
+
+
+
+
+editting newbranch branch by yehia
+>>>>>>> 26864bbfc86bcfefbdfc39b316bc8439b4b28c1c
